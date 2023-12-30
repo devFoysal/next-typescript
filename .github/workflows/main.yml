@@ -28,6 +28,6 @@ jobs:
           server: ftp.beatnikcanada.com
           username: foysal@foysal.beatnikcanada.com
           password: "@foysal@20%"
-          local-dir: out
+          local-dir: out/
           server-dir: /
           exclude: '.git,.github'
