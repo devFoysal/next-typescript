@@ -22,9 +22,6 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Export Next.js app
-        run: npm run export
-
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
