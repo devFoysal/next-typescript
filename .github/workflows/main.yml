@@ -29,6 +29,5 @@ jobs:
           username: foysal@foysal.beatnikcanada.com
           password: "@foysal@20%"
           local-dir: out
-          # server-dir: /
-          remote-dir: /
+          server-dir: /
           exclude: '.git,.github'
