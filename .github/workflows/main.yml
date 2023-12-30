@@ -1,5 +1,4 @@
 name: Deploy nextjs project on shared server
-
 on:
   push:
     branches:
@@ -26,9 +25,9 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.beatnikcanada.com
+          username: foysal@foysal.beatnikcanada.com
+          password: "@foysal@20%"
           local-dir: out/
           server-dir: /
-          exclude: ".git,.github"
+          exclude: '.git,.github'
