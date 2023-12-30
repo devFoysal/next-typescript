@@ -17,4 +17,4 @@ jobs:
           server: ftp.beatnikcanada.com
           username: foysal@foysal.beatnikcanada.com
           password: "@foysal@20%"
-          server-dir: /home/beatnikc/foysal.beatnikcanada.com/
+          server-dir: /
