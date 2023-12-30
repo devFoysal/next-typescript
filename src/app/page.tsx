@@ -1,8 +1,8 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import ProductCard from './components/Productcard'
 import { use } from 'react'
+import ProductCard from './components/ProductCard'
 
 export default function Home() {
   return (
